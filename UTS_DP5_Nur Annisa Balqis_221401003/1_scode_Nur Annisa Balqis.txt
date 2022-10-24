@@ -1,0 +1,32 @@
+program waktu;
+
+uses crt;
+
+var
+        nama,jam:string;
+
+begin
+        clrscr;
+        write('Masukkan nama            : ');
+        readln(nama);
+        write('Masukkan waktu           : ');
+        readln(jam);
+        writeln('S');
+        writeln('');
+        writeln('E');
+        writeln('');
+        writeln('L');
+        writeln('');
+        writeln('A');
+        writeln('');
+        writeln('M');
+        writeln('');
+        writeln('A');
+        writeln('');
+        writeln('T');
+        writeln('');
+        writeln('',jam);
+        writeln('');
+        writeln('',nama);
+        readln;
+end.
